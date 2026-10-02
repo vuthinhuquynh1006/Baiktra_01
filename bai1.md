@@ -16,8 +16,8 @@ Câu 1:
       
 Câu 2 :
 -  khác biệt so với set :
-  + set: Cho phép gán/thay đổi giá trị của thuộc tính vào bất kỳ lúc nào trong suốt vòng đời của Object.
-  + init: Chỉ cho phép gán giá trị duy nhất một lần trong quá trình khởi tạo đối tượng (qua Constructor hoặc Object Initializer { Name = "..." }). Sau khi đối tượng tạo xong, thuộc tính trở thành Read-Only (không thể sửa đổi).
+   + set: Cho phép gán/thay đổi giá trị của thuộc tính vào bất kỳ lúc nào trong suốt vòng đời của Object.
+   + init: Chỉ cho phép gán giá trị duy nhất một lần trong quá trình khởi tạo đối tượng (qua Constructor hoặc Object Initializer { Name = "..." }). Sau khi đối tượng tạo xong, thuộc tính trở thành Read-Only (không thể sửa đổi).
 - Trường hợp sử dụng thực tế :
   + Khởi tạo các đối tượng Bất biến (Immutable Objects) hoặc các lớp DTO (Data Transfer Object) nhận dữ liệu từ API/Database.
   + Giúp ghi mã nguồn sạch gọn hơn bằng Object Initializer mà vẫn đảm bảo tính an toàn dữ liệu, tránh việc vô tình sửa đổi giá trị sau khi tạo đối tượng.
